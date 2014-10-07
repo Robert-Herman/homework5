@@ -6,8 +6,8 @@ double perimeter(struct triangle t);
 
 int main(void) {
     struct point2d u = {2., 2.};
-    struct point2d v = {4., 4.};
-    struct point2d w = {8., 8.};       
+    struct point2d v = {-2., 1.};
+    struct point2d w = {0., -3.};       
     struct triangle t = {u, v, w};
     double areaT = area(t);
     double perimeterT = perimeter(t);
